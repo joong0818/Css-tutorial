@@ -56,7 +56,7 @@ body {
 
 .container .thumb li:hover img 
 {
-    transform: rotate(-35deg);
+    transform: rotate(-360deg);
 }
 
 .container .imgbox {
@@ -96,7 +96,7 @@ body {
 
 .container .imgbox img:hover
 {
-    transform: scale(1.25) rotate(-15deg);
+    transform: scale(1.25) rotate(-360deg) translateX(20px);
 }
 
 .container .imgbox .size
@@ -134,7 +134,7 @@ body {
 
 .container .imgbox .size li:hover
 {
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 .container .imgbox .btn
